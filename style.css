@@ -1,0 +1,80 @@
+html, body {
+  background: url("http://oxygennacdn3.oxygenna.com/wp-content/uploads/2015/11/18.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#red, #green, #blue, #yellow {
+  width: 225px;
+  height: 225px;
+  border: 10px solid #dddddd;
+}
+
+#red {
+  background-color: red;
+  border-radius: 100% 0 0 0;
+  box-shadow: -10px -10px 2px #333333;
+}
+
+#green {
+  background-color: green;
+  border-radius: 0 100% 0 0;
+  box-shadow: 10px -10px 2px #333333;
+}
+
+#blue {
+  background-color: blue;
+  border-radius: 0 0 0 100%;
+  box-shadow: -10px 10px 2px #333333;
+}
+
+#yellow {
+  background-color: yellow;
+  border-radius: 0 0 100% 0;
+  box-shadow: 10px 10px 2px #333333;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap; /* Safari */
+  flex-wrap: wrap;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#leftSide {
+  position: absolute;
+  text-align: center;
+  top: 180px;
+  left: 60px;
+  font-family: 'Limelight', cursive;
+}
+
+#title {
+  font-size: 7em;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #551166;
+  text-shadow: 5px 5px 1px #222222;
+  letter-spacing: 2px;
+}
+
+#score {
+  font-size: 2em;
+  color: #da2313;
+  text-shadow: 2px 2px 1px #222222;
+  letter-spacing: 2px;
+  border: 5px solid #551166;
+  border-radius: 50px;
+}
+
+
+
